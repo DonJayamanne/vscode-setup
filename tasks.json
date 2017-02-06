@@ -1,0 +1,65 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "tasks":[
+        {
+            "taskName": "Build - debug mode",
+            "command": "make",
+            "isShellCommand": true,
+            "isBuildCommand": true,
+            "args": ["-j4", "-s", "-C/absolute/path/to/debug/folder"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Build - release mode",
+            "command": "make",
+            "isShellCommand": true,
+            "isBuildCommand": true,
+            "args": ["-j4", "-s", "-C/absolute/path/to/release/folder"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run unit tests - debug mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Unit", "reportUnit.xml", "Debug"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run unit tests - release mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Unit", "reportUnit.xml", "Release"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run acceptance tests - debug mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Acceptance", "reportAcceptance.xml", "Debug"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run acceptance tests - release mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Acceptance", "reportAcceptance.xml", "Release"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run performance tests - debug mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Performance", "reportPerformance.xml", "Debug"],
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Run performance tests - release mode",
+            "command": "python3",
+            "isShellCommand": true,
+            "args": ["/absolute/path/to/test/script/such/as/RunTests.py", "ExecutableName_tests", "*Performance", "reportPerformance.xml", "Release"],
+            "showOutput": "always"
+        }
+    ]
+}
