@@ -1,0 +1,71 @@
+// Place your settings in this file to overwrite the default settings
+{
+
+// Telemetry
+
+    // Enable usage data and errors to be sent to Microsoft.
+    "telemetry.enableTelemetry": false,
+
+    // Enable crash reports to be sent to Microsoft.
+	// This option requires restart to take effect.
+    "telemetry.enableCrashReporter": false,
+
+
+// Editor
+
+    // Turn off formatting on type
+    "editor.formatOnType": false,
+
+    // Turn off the quick suggestions since not helpful
+    "editor.quickSuggestions": false,
+
+    // Render all the whitespaces
+    "editor.renderWhitespace": "all",
+
+    // Prevent brackets to be closed automatically
+    "editor.autoClosingBrackets": false,
+
+
+// Files
+
+    // Trim trailing whitespaces on save
+    "files.trimTrailingWhitespace": true,
+
+    // File types to exclude
+    "files.exclude":
+    {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true
+    },
+
+
+// C/C++ configuration
+
+    // Turn off the autocomplete for C++
+    "C_Cpp.autocomplete": "Disabled",
+
+    // Rely on the .clang-format file
+    "C_Cpp.clang_format_style": "file",
+
+    // Enable clang-format on save.
+    "C_Cpp.clang_format_formatOnSave": false,
+
+
+// Python configuration
+
+    // Whether to lint Python files using pep8
+    "python.linting.pep8Enabled": true,
+
+    // Whether to lint Python files using pylint.
+    "python.linting.pylintEnabled": false,
+    "window.zoomLevel": 0,
+
+
+// Vim
+
+    // Do not override ctrl key commands
+    "vim.useCtrlKeys": false
+}
