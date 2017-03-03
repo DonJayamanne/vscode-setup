@@ -25,6 +25,9 @@
     // Prevent brackets to be closed automatically
     "editor.autoClosingBrackets": false,
 
+    // Enable the minimap
+    "editor.minimap.enabled": true,
+
 
 // Files
 

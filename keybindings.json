@@ -1,0 +1,6 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "f8",              "command": "workbench.action.tasks.build" },
+    { "key": "ctrl+shift+b",    "command": "workbench.action.tasks.runTask" },
+    { "key": "f4",              "command": "C_Cpp.SwitchHeaderSource", "when": "editorTextFocus" }
+]

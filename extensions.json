@@ -8,6 +8,7 @@
         "Unity.unity-debug",
         "ms-vscode.mono-debug",
         "donjayamanne.python",
-        "robertohuertasm.vscode-icons"
+        "robertohuertasm.vscode-icons",
+        "vthiery.prettify-selected-json"
     ]
 }
