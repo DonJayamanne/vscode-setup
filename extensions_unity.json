@@ -1,13 +1,9 @@
 {
-    // See http://go.microsoft.com/fwlink/?LinkId=827846
-    // for the documentation about the extensions.json format
+    // Recommended extensions for development with Unity
     "recommendations": [
-        "vscodevim.vim",
-        "ms-vscode.cpptools",
         "ms-vscode.csharp",
         "Unity.unity-debug",
         "ms-vscode.mono-debug",
-        "donjayamanne.python",
         "robertohuertasm.vscode-icons",
         "vthiery.prettify-selected-json"
     ]
