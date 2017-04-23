@@ -3,7 +3,7 @@ This repository contains my - general - Visual Studio Code setup.
 
 ## Files ##
 
-* extensions.json - contains all my favorite extensions to VS Code
+* extensions_*.json - these files contain all my favorite extensions to VS Code
 * settings.json - modifies the default settings offered by VS Code or its extensions
 * tasks.json - contains my classic setup to build and run tests
 * keybindings.json - alter the default keybindings
