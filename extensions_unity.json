@@ -5,6 +5,7 @@
         "Unity.unity-debug",
         "ms-vscode.mono-debug",
         "robertohuertasm.vscode-icons",
+        "eamodio.gitlens",
         "vthiery.prettify-selected-json"
     ]
 }

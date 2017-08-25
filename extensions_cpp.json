@@ -1,9 +1,9 @@
 {
     // Recommended extensions for C++ development
     "recommendations": [
-        "vscodevim.vim",
         "ms-vscode.cpptools",
         "robertohuertasm.vscode-icons",
+        "eamodio.gitlens",
         "vthiery.prettify-selected-json"
     ]
 }

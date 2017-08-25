@@ -1,9 +1,9 @@
 {
         // Recommended extensions for Python development
         "recommendations": [
-            "vscodevim.vim",
             "donjayamanne.python",
             "robertohuertasm.vscode-icons",
+            "eamodio.gitlens",
             "vthiery.prettify-selected-json"
         ]
 }
