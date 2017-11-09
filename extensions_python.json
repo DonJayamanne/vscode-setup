@@ -1,7 +1,7 @@
 {
         // Recommended extensions for Python development
         "recommendations": [
-            "donjayamanne.python",
+            "ms-python.python",
             "robertohuertasm.vscode-icons",
             "eamodio.gitlens",
             "vthiery.prettify-selected-json"
